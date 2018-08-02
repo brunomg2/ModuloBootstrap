@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <title>Project Bootstrap 4</title>
+</head>
+<style>
+    .slide{
+        width: 500px
+    }
+    .container-fluid{
+        background-color: #ddd;
+    }
+</style>
+
+<body>
+    <div class="container-fluid">
+
+        <div id="slideShow" class="slide carousel" data-ride="carousel">
+
+            <!--Indicadores da Imagem-->
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#slideShow" data-slide-to="0"></li>
+                <li data-target="#slideShow" data-slide-to="1"></li>
+                <li data-target="#slideShow" data-slide-to="2"></li>
+            </ol>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img class="w-100" src="assets/images/9101.jpg" alt="Wallpaper">
+                    <div class="carousel-caption">
+                        <h3>New York</h3>
+                        <p>We love the Big Apple!</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img class="w-100" src="assets/images/1017574-cake-s-angelo-rules-back-season-three.jpg">
+                </div>
+
+                <div class="carousel-item">
+                    <img class="w-100" src="assets/images/a48dxsyvuqrrrvim.jpg">
+                </div>
+
+            </div>
+
+            <!--Controles-->
+            <a class="carousel-control-prev" href="#slideShow" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#slideShow" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

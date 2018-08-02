@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <title>Project Bootstrap 4</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="alert alert-primary text-center" role="alert">
+            Criando um alert com a class alert alert-primary
+        </div>
+
+        <div class="alert alert-secondary text-center" role="alert">
+            Criando um alert com a class alert alert-secondary
+        </div>
+
+        <div class="alert alert-success text-center" role="alert">
+            Criando um alert com a class alert alert-success
+        </div>
+
+        <div class="alert alert-danger text-center" role="alert">
+            Criando um alert com a class alert alert-danger
+        </div>
+
+        <div class="alert alert-warning text-center" role="alert">
+            Criando um alert com a class alert alert-warning
+        </div>
+
+        <div class="alert alert-info text-center" role="alert">
+            Criando um alert com a class alert alert-info
+        </div>
+
+        <div class="alert alert-light text-center" role="alert">
+            Criando um alert com a class alert alert-light
+        </div>
+
+        <div class="alert alert-dark text-center" role="alert">
+            Criando um alert com a class alert alert-dark
+        </div>
+
+        <div class="alert alert-danger" role="alert">
+            <p class="h4 alert-heading">Deu Errado!</p>
+            Criando um alert com a class alert alert-danger e criando um head usando a class alert-heading
+        </div>
+
+        <!--fade faz com que desapareça suavemente e o show mantem aparecendo na tela durante o carregamento-->
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            <p class="h4 alert-heading">Deu Errado!</p>
+            Criando um alert com a class alert alert-danger e criando um head usando a class alert-heading
+            
+            <!--alert-dismissible cria a posibilidade de desabilitar a mensagem
+                é necessario criar um botão e usar a classe close e o data-dismiss="alert"
+                dentro do botão um span com aria-hidden="true"
+            -->
+
+            <button class="close" data-dismiss="alert" aria-label="fechar">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <div class="alert alert-success text-center alert-dismissible" role="alert">
+            Login efetuado com sucesso!!!
+            <button class="close" data-dismiss="alert">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+
+    </div>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

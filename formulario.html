@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <title>Project Bootstrap 4</title>
+</head>
+
+<body>
+    <div class="container">
+        <form method="post">
+            <label>E-mail</label>
+            <input type="email">
+            <label>Senha</label>
+            <input type="password">
+            <input type="submit" value="cadastrar">
+        </form>
+        <hr>
+
+        <form method="POST">
+            <div class="form-group">
+                <label for="email">E-mail</label>
+                <input id="email" class="form-control form-control form-control-plaintext" type="Email" name="email" readonly value="bruno@email.com">
+                <label for="senha">Senha</label>
+                <input id="senha" class="form-control form-control-sm" type="password">
+            </div>
+            <div class="form-group">
+                <input class="btn btn-primary" type="submit" value="Login">
+            </div>
+        </form>
+
+        <hr>
+        <form method="POST">
+            <div class="form-group form-inline">
+                <input id="email" class="form-control" type="Email" name="email">
+                <input id="senha" class="form-control" type="password">
+                <input class="btn btn-primary" type="submit" value="Login">
+            </div>
+        </form>
+
+        <hr>
+
+        <form method="POST">
+            <div class="form-row">
+                <div class="col">
+                    <div class="form-group">
+                        <input id="email" class="form-control" type="Email" name="email">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-group">
+                        <input id="senha" class="form-control" type="password">
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col">
+                    <div class="form-group">
+                        <input class="btn btn-primary" type="submit" value="Login">
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </div>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
