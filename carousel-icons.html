@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <title>Project Bootstrap 4</title>
+</head>
+<style>
+    .slide {
+        width: 500px;
+        height: 500px;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .container-fluid {
+        background-color: #ddd;
+    }
+</style>
+
+<body>
+    <div class="container">
+
+        <div id="slide" class="slide carousel">
+
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#slide" data-slide-to="0"></li>
+                <li data-target="#slide" data-slide-to="1"></li>
+            </ol>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <a class="btn btn-success" href="#">Cadastrar</a>
+                    <a class="btn btn-danger" href="#">Fechar</a>
+                </div>
+                <div class="carousel-item">
+                    <a class="btn btn-success" href="#">Cadastrar</a>
+                    <a class="btn btn-danger" href="#">Fechar</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
