@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no" />
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <title>Project Bootstrap 4</title>
+</head>
+
+<body>
+    <div class="container">
+        <button class="btn btn-success" data-toggle="tooltip" data-placement="bottom" title="Ao Clicar, irá salvar os dados do usuário">Salvar</button>
+    </div>
+
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
+    
+    <!--Para o tooltip funcionar é necesario disparar uma função-->
+    <script type="text/javascript">
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+</body>
+
+</html>
